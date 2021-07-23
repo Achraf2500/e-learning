@@ -1,0 +1,48 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Global Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+/* end Global fonts */
+
+/* Global Styles */
+.bg{
+  background-image: url('~/assets/images/bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.custom-shape-divider-bottom-1615408481 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1615408481 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1615408481 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.coming-soon {
+  transform: rotate(
+45deg
+);
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    top: 15px;
+    right: -60px;
+}
